@@ -30,17 +30,21 @@
 
 img {
 	transition: transform .5s;
-	transform-origin: 0 0;
 }
 
 img:hover {
-	transform: rotate(45deg);
+	transform: rotate(-5deg);
 }
 
 
 /* -- Row 2 --------- */
 
-
+.photo img {
+	transform-origin: 0 0;
+}
+.photo:hover {
+	transform: scale(1.2);
+}
 
 /* -- Row 3 --------- */
 
