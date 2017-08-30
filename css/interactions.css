@@ -13,8 +13,9 @@
   Photo 3D Transforms & Transitions
 ==================================== */
 
-.content {
+.photo-container {
 	perspective: 700px;
+	/*perspective-origin: bottom left;*/
 }
 
 .photo {
@@ -23,7 +24,7 @@
 }
 
 .photo:hover {
-	transform: rotatey(-180deg);
+	transform: rotate3D(0, 1, 0, 180deg);
 }
 
 .side-a, .side-b {
